@@ -1,0 +1,17 @@
+%\VignetteIndexEntry{A Tutorial for SNPfreq}
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+this is an example of the minor allele frequency stuff
+
+the file that is loaded needs to be added to the vignett folder
+<<>>=
+library(SNPfreq)
+load("GGSNPs.RData")
+myMAF <- minorAlleleFrequency(GGdata)
+myMAF
+@
+
+\end{document}
