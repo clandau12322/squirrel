@@ -41,3 +41,4 @@ mySNP <- matrix(sample(c(0, 1, 2), 64, replace = TRUE), nrow = 8, ncol = 8)
 minorAlleleFrequency(mySNP)
 filterSNPs(mySNP)
 mafHist(mySNP)
+}
